@@ -8,6 +8,8 @@ import java.io.*;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("This is only in main.");
+
         try {
             FileWriter fileWriter = new FileWriter("hello.txt", false);
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
